@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-26T16:28:34 IST" name="Suite" finished-at="2020-09-26T16:29:42 IST" duration-ms="68687">
+    <groups>
+    </groups>
+    <test started-at="2020-09-26T16:28:34 IST" name="Wiki" finished-at="2020-09-26T16:29:39 IST" duration-ms="65609">
+      <class name="demoTest.Guru99">
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:demoTest.Guru99@6f3b5d16]" started-at="2020-09-26T16:29:42 IST" name="EndReport" finished-at="2020-09-26T16:29:48 IST" duration-ms="5825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReport -->
+      </class> <!-- demoTest.Guru99 -->
+      <class name="demoTest.Wikipedia">
+        <test-method is-config="true" signature="ReportInit()[pri:0, instance:demoTest.Wikipedia@6e75aa0d]" started-at="2020-09-26T16:28:34 IST" name="ReportInit" finished-at="2020-09-26T16:28:34 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportInit -->
+        <test-method signature="LaunchYahoo()[pri:1, instance:demoTest.Wikipedia@6e75aa0d]" started-at="2020-09-26T16:28:34 IST" name="LaunchYahoo" finished-at="2020-09-26T16:29:39 IST" duration-ms="65194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchYahoo -->
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:demoTest.Wikipedia@6e75aa0d]" started-at="2020-09-26T16:29:48 IST" name="EndReport" finished-at="2020-09-26T16:29:53 IST" duration-ms="4238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReport -->
+      </class> <!-- demoTest.Wikipedia -->
+    </test> <!-- Wiki -->
+    <test started-at="2020-09-26T16:28:34 IST" name="Guru99" finished-at="2020-09-26T16:29:42 IST" duration-ms="68687">
+      <class name="demoTest.Guru99">
+        <test-method is-config="true" signature="ReportInit()[pri:0, instance:demoTest.Guru99@6f3b5d16]" started-at="2020-09-26T16:28:34 IST" name="ReportInit" finished-at="2020-09-26T16:28:34 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportInit -->
+        <test-method signature="LaunchYahoo()[pri:1, instance:demoTest.Guru99@6f3b5d16]" started-at="2020-09-26T16:28:34 IST" name="LaunchYahoo" finished-at="2020-09-26T16:29:42 IST" duration-ms="68248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchYahoo -->
+      </class> <!-- demoTest.Guru99 -->
+    </test> <!-- Guru99 -->
+  </suite> <!-- Suite -->
+</testng-results>

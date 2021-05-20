@@ -17,13 +17,13 @@ public class DriverFactory {
 	{
 		switch (browser.toLowerCase()) {
 		case "chrome":
-			System.out.println("Selected Browser is"+browser);
+			System.out.println("Selected Browser is:-"+browser);
 			System.setProperty("webdriver.chrome.driver","F:\\Interview Preparation\\Setup\\Drivers\\chromedriver.exe");
 			driver.set(new ChromeDriver());
 			break;
 
 		case "firefox":
-			System.out.println("Selected Browser is"+browser);
+			System.out.println("Selected Browser is:-"+browser);
 			System.setProperty("webdriver.gecko.driver","F:\\Interview Preparation\\Setup\\Drivers\\geckodriver.exe");
 			driver.set(new FirefoxDriver());
 			break;
